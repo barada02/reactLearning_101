@@ -1,0 +1,62 @@
+/* ProfileCardDisplay.css */
+
+.profile-card-display {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-display-header {
+  margin-bottom: 30px;
+}
+
+.profile-display-header h1 {
+  color: #4a4a4a;
+  margin: 0 0 10px 0;
+  font-size: 2rem;
+}
+
+.display-description {
+  color: #6c757d;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.profile-display-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-controls {
+  margin-top: 25px;
+}
+
+.next-profile-btn {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.next-profile-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-display-footer {
+  padding-top: 15px;
+  border-top: 1px solid #e9ecef;
+  color: #6c757d;
+  font-size: 0.9rem;
+}
